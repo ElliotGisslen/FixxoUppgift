@@ -15,42 +15,55 @@
     <header class="container ">
         <a class="logotype ">FIXXO.</a>
         <nav class="menu-links  d-none d-md-block">
-            <a class="menu-link" href="index.html">Home</a>
-            <a class="menu-link" href="#">Contacts</a>
+            <a class="menu-link" href="#">Home</a>
+            <a class="menu-link" href="contacts.html">Contacts</a>
         </nav>
         <nav class="menu-icons ">
             <a class="menu-icon "><i class="fa-regular fa-heart"></i></a>
             <a class="menu-icon "><i class="fa-regular fa-bag-shopping"></i></a>
             <a class="menu-icon "><i class="fa-regular fa-search"></i></a>
-            <a class="menu-icon "><i class="fa-regular fa-heart"></i></a>
-
-
+            <a class="menu-icon "><i class="fa-regular fa-code-compare"></i></a>
+            
+            <div class="dropdown">
+                <a class="menu-icon d-md-none "><i class="fa-regular fa-bars"></i></a>
+                
+                <div class="dropdown-content">
+                    <a class="menu-link" href="index.html">Home</a>
+                    <a class="menu-link" href="#">Contacts</a>
+                
+                </div>
+            </div>
         </nav>
+        
+
+        
 
     </header>
-    <section class="contactformula">
+    <section class="contactform">
         <p style="text-align: center; margin-top: 100px; font-weight: 600;" class="">Come in contact with us</p>
-        <div class="inputboxdiv">
-            <form class="inputbox ">
-                <input id="nameinput" class="input1" type="text" placeholder="Your Name">
-                <input id="mailinput" class="input1" type="text" placeholder="Your Mail"> <br>
-                <input id="commentsinput" class="input1" type="text" placeholder="Comments"><br>
-                <button>Post Comments</button>
+        <div class="container">
+            <form class="inputbox">
+                <input class="nameinput inputfield" type="text" placeholder="Your Name">
+                <input class="mailinput inputfield" type="text" placeholder="Your Mail"> <br>
+                <input class="commentsinput inputfield" type="text" placeholder="Comments"><br>
+                <button class="btn-theme">Post Comments</button>
             </form>
 
         </div>
         
     </section>
-    <footer style="margin-top: 20%;">
-        <i class="fa fa-facebook-square"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-google"></i>
-        <i class="fa fa-linkedin-square"></i>
-        © 2023 Fixxo. All Rights Reserved
-
-
-    </footer>
+    <footer>
+        <div class="container">
+           <i class="fa fa-facebook-square facebook-icon"></i>
+           <i class="fa fa-instagram instagram-icon"></i>
+           <i class="fa fa-twitter twitter-icon"></i>
+           <i class="fa fa-google google-icon"></i>
+           <i class="fa fa-linkedin-square linkedin-icon"></i>
+   
+        </div>
+        <p class="footer-text">© 2023 Fixxo. All Rights Reserved</p>
+           
+       </footer>
     
     
    
